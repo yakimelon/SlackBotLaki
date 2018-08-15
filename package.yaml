@@ -27,7 +27,7 @@ Outputs:
 Resources:
   HelloWorldFunction:
     Properties:
-      CodeUri: s3://slack-bot-laki/ace0354d62498252b5636f7f35403741
+      CodeUri: s3://slack-bot-laki/bad4a3db1c081425cb31a31bb6853802
       Environment:
         Variables:
           PARAM1: VALUE

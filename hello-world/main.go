@@ -43,6 +43,8 @@ func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyRespo
 		text = "こんな時間まで開発しててかっこいいよっ！せんぱい？(o'▽'o)ゝ🐸💕🐸"
 	} else if tw == "おはよう" {
 		text = "せんぱいおはよーっ！今日も一日がんばろうね？(o'▽'o)ゝ🐸💕🐸"
+	} else if tw == "がんばる" || tw == "頑張る" {
+		text = "一緒にがんばろうねっ！せんぱい？(o'▽'o)ゝ🐸💕🐸"
 	}
 
 	j, err := json.Marshal(SlackMessage{Text: text})
